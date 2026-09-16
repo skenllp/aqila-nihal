@@ -25,13 +25,16 @@ const edwardianScript = localFont({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://aqila-nihal.vercel.app'),
   title: 'Aqila & Nihal · Wedding Invitation · 14 November 2026',
   description: 'Join us as we celebrate the Nikkah of Adv. Aqila Sherin & Adv. Nihal Bin Noushad on November 14, 2026 at Town Bank Auditorium, Thalassery.',
   icons: { icon: '/assets/logo-2.png' },
   openGraph: {
     title: 'Aqila & Nihal · Wedding Invitation',
     description: 'Nikkah · 14 November 2026 · Town Bank Auditorium, Thalassery',
+    url: 'https://aqila-nihal.vercel.app',
     siteName: 'Aqila & Nihal Wedding',
+    images: [{ url: 'https://aqila-nihal.vercel.app/og.jpg', width: 1200, height: 630, alt: 'Aqila & Nihal Wedding Invitation' }],
     type: 'website',
     locale: 'en_US',
   },
@@ -39,6 +42,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Aqila & Nihal · Wedding Invitation',
     description: 'Nikkah · 14 November 2026 · Town Bank Auditorium, Thalassery',
+    images: ['https://aqila-nihal.vercel.app/og.jpg'],
   },
 };
 export default function RootLayout({ children }: { children: React.ReactNode }) {

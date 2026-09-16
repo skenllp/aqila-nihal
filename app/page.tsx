@@ -98,8 +98,8 @@ export default function Invitation() {
 
       {/* ── Bride first, then groom ── */}
       <Fade delay={900} className="couple-names-block">
-        <h2 className="couple-name bride">Adv. Aqila Sherin</h2>
-        <span className="couple-ampersand">&amp;</span>
+        <h2 className="couple-name">Adv. Aqila Sherin</h2>
+        <span className="couple-name">&amp;</span>
         <h2 className="couple-name">Adv. Nihal Bin Noushad</h2>
       </Fade>
 

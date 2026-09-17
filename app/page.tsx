@@ -151,8 +151,8 @@ export default function Invitation() {
       <div className="lace-panel"><img className="lace-art" src={asset('lace3')} alt="" aria-hidden="true" /><div className="event-content">
         <Fade delay={1700} className="event-date"><h3 className="event-date-text">NOVEMBER 14, 2026</h3></Fade>
         <Fade delay={1900}><p className="inshallah-badge">IN SHA ALLAH</p></Fade>
-        <Fade delay={2100} className="nikkah-details"><p className="event-copy">NIKAH ON NOV 14, 2026 AT <span className="time">11:00</span> AM,<br />TOWN BANK AUDITORIUM, THALASSERY</p></Fade>
-        <Fade delay={2200} className="location"><a className="invitation-button" href="https://maps.app.goo.gl/QkE8SGKw55oQws686" target="_blank" rel="noopener noreferrer"><MapPin size={16} strokeWidth={1.5} />NIKAH LOCATION</a></Fade>
+        <Fade delay={2100} className="nikkah-details"><p className="event-copy">٤ جمادى الآخرة ١٤٤٨ هـ<br /><span className="time" dir="ltr">11:00 AM</span><br />TOWN BANK AUDITORIUM, THALASSERY</p></Fade>
+        <Fade delay={2200} className="location"><a className="invitation-button" href="https://maps.app.goo.gl/QkE8SGKw55oQws686" target="_blank" rel="noopener noreferrer"><MapPin size={16} strokeWidth={1.5} />LOCATION</a></Fade>
         <Fade delay={2700} className="countdown-wrap"><Countdown /></Fade>
       </div></div>
 

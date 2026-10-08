@@ -279,11 +279,12 @@ a { color: inherit; text-decoration: none; }
 .event-time-range {
   text-align: center;
   font-family: 'Sedan', 'Cormorant Garamond', Georgia, serif;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 400;
-  letter-spacing: .22em;
-  color: var(--rose);
+  letter-spacing: .18em;
+  color: var(--foreground);
   margin-top: 6px;
+  line-height: 1.625;
 }
 .inshallah-badge {
   text-align: center;

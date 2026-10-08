@@ -147,7 +147,7 @@ export default function Invitation() {
         <Fade delay={1700} className="event-date"><h3 className="event-date-text">NOVEMBER 14, 2026</h3></Fade>
         <Fade delay={1800}><p className="event-time-range" style={{ fontFamily: "'Inter', 'Lato', Arial, sans-serif", fontWeight: 700, letterSpacing: '0.1em', fontSize: '14px' }}>NIKAH: 11:00 AM</p></Fade>
         <Fade delay={1900}><p className="inshallah-badge">IN SHA ALLAH</p></Fade>
-        <Fade delay={2100} className="nikkah-details"><p className="event-copy">٤ جمادى الآخرة ١٤٤٨ هـ<br />TOWN BANK AUDITORIUM, THALASSERY</p></Fade>
+        <Fade delay={2100} className="nikkah-details"><p className="event-copy">٤ جمادى الآخرة ١٤٤٨ هـ<br />TOWN BANK AUDITORIUM, THALASSERY<br /><span dir="ltr" style={{ fontFamily: "'Inter', 'Lato', Arial, sans-serif", fontWeight: 700, letterSpacing: '0.08em', fontSize: '13px' }}>Wedding Ceremony · 11:00 AM – 3:00 PM</span></p></Fade>
         <Fade delay={2200} className="location"><a className="invitation-button" href="https://maps.app.goo.gl/QkE8SGKw55oQws686" target="_blank" rel="noopener noreferrer"><MapPin size={16} strokeWidth={1.5} />LOCATION</a></Fade>
         <Fade delay={2700} className="countdown-wrap"><Countdown /></Fade>
       </div></div>

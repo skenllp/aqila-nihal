@@ -145,7 +145,6 @@ export default function Invitation() {
       {/* ── Lace panel + event details ── */}
       <div className="lace-panel"><img className="lace-art" src={asset('lace3')} alt="" aria-hidden="true" /><div className="event-content">
         <Fade delay={1700} className="event-date"><h3 className="event-date-text">NOVEMBER 14, 2026</h3></Fade>
-        <Fade delay={1800}><p className="event-time-range" style={{ fontFamily: "'Inter', 'Lato', Arial, sans-serif", fontWeight: 700, letterSpacing: '0.1em', fontSize: '14px' }}>NIKAH: 11:00 AM</p></Fade>
         <Fade delay={1900}><p className="inshallah-badge">IN SHA ALLAH</p></Fade>
         <Fade delay={2100} className="nikkah-details"><p className="event-copy">NIKKAH ON NOV 14, 2026 AT 11:00 AM<br />TOWN BANK AUDITORIUM, THALASSERY<br />WEDDING CEREMONY · 11:00 AM – 3:00 PM</p></Fade>
         <Fade delay={2200} className="location"><a className="invitation-button" href="https://maps.app.goo.gl/QkE8SGKw55oQws686" target="_blank" rel="noopener noreferrer"><MapPin size={16} strokeWidth={1.5} />LOCATION</a></Fade>
